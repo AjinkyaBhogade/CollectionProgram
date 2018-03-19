@@ -2,6 +2,11 @@ package com.infotech.model;
 
 public class Student {
 
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", age=" + age + "]";
+	}
+
 	private String name;
 	
 	private Integer age;
